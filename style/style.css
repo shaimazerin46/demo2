@@ -1,26 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
+body{
+    
+       
+}
 
 h2{
-    color: red;
-    font-style: italic;
+    color: white;
+    
     font-weight: lighter;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
     font-size: 24px;
     text-align: center;
+    margin: 200px 0px 50px 0px;
+    font-family: "Space Grotesk", sans-serif;
 }
 .heading_parents{
-    background-color: rgb(250, 170, 95);
-    height: 300px;
+    /* background-image: linear-gradient(to top,rgb(214, 92, 92),pink, rgb(233, 45, 76),rgb(248, 9, 49)); */
+    background-image: linear-gradient(0deg, rgb(165, 40, 82), transparent), url(../assets/hero.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
     padding: 30px 0px;
-    width: 1100px;
+    clip-path: polygon(0 0, 100% 0%, 90% 89%, 0% 100%);
+    /* width: 800px; */
     /* margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto; */
-    margin: 30px auto 30px auto;
+    /* margin: 30px auto 30px auto; */
     
+}
+.btn{
+    background-color: tomato;
+    padding: 15px 35px 15px 35px;
+    color: white;
+    border: 4px solid yellow;
+    border-radius: 6px;
+    font-family: "Space Mono", monospace;
+        
+
+}
+.btn_parent{
+    text-align: center;
 }
