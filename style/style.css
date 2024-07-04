@@ -1,3 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 h2{
     color: red;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+}
+.heading_parents{
+    background-color: rgb(250, 170, 95);
+    height: 300px;
+    padding: 30px 0px;
+    width: 1100px;
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 30px auto 30px auto;
+    
 }
